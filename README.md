@@ -8,7 +8,7 @@ We think that an spider shaped robot is a good way to achieve this target.
 
 But a more simple option is maybe an omnidirectional robot
 
-* * https://makezine.com/projects/lego-holonomic-robot/
+* https://makezine.com/projects/lego-holonomic-robot/
 
 ## Programming language
 
