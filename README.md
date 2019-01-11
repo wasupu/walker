@@ -5,6 +5,7 @@ The principal idea of this project is create a lego mindstorms  robot that can m
 We think that an spider shaped robot is a good way to achieve this target.
 
 * https://www.diywalkers.com, this site looks great as inspiration of the robot design.
+* https://www.electricbricks.com/lego-piezas-lego-technic-c-25_31_164.html
 
 But a more simple option is maybe an omnidirectional robot
 
@@ -15,3 +16,4 @@ But a more simple option is maybe an omnidirectional robot
 We select python as programming language because the most popular machine learning framework  
 
 * https://www.ev3dev.org
+
