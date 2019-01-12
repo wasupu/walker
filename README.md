@@ -21,3 +21,7 @@ We select python as programming language because the most popular machine learni
 ## Lego technics
 
 * https://www.electricbricks.com/lego-piezas-lego-technic-c-25_31_164.html
+
+## Lego database
+
+* https://rebrickable.com/home/
