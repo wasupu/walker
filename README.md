@@ -15,6 +15,10 @@ But a more simple option is maybe an omnidirectional robot
 Before evaluate both options we decide implements the [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html), you can see the result of 
 the first walker development in the videos in the project.
 
+## First implementation
+
+We implements the [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html), you can see the result in the videos included in the project.
+
 ## Programming language
 
 We select python as programming language because the most popular machine learning framework  
