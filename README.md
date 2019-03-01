@@ -1,6 +1,6 @@
 ## Walker
 
-The principal idea of this project is create a lego mindstorms  robot that can move in a omnidirectional way. The robot can go up/down right/left easily.
+The principal idea of this project is create a lego mindstorms robot that can move in a omnidirectional way. The robot can go up/down right/left easily.
 
 We think that an spider shaped robot is a good way to achieve this target.
 
@@ -10,7 +10,10 @@ We select [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html) ve
 
 But a more simple option is maybe an omnidirectional robot
 
-* https://makezine.com/projects/lego-holonomic-robot/
+* https://makezine.com/projects/lego-holonomic-robot/ 
+
+Before evaluate both options we decide implements the [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html), you can see the result of 
+the first walker development in the videos in the project.
 
 ## Programming language
 
@@ -21,3 +24,4 @@ We select python as programming language because the most popular machine learni
 ## Lego technics
 
 * https://www.electricbricks.com/lego-piezas-lego-technic-c-25_31_164.html
+
