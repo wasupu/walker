@@ -39,6 +39,7 @@ def check_front_distance(front_ultrasonic_sensor_scheduler):
         turn_left()
         go_ahead()
 
+    print("Check front distance")
     front_ultrasonic_sensor_scheduler \
         .enter(1, 1,
                check_front_distance,
@@ -52,6 +53,7 @@ def check_back_distance(back_ultrasonic_sensor_scheduler):
         turn_left()
         go_ahead()
 
+    print("Check back distance")
     back_ultrasonic_sensor_scheduler \
         .enter(1, 1,
                check_back_distance,
@@ -59,7 +61,7 @@ def check_back_distance(back_ultrasonic_sensor_scheduler):
 
 
 def go_ahead():
-    tank_drive.on_for_seconds(SpeedPercent(-100), SpeedPercent(100), 5)
+    tank_drive.on(SpeedPercent(-100), SpeedPercent(100))
 
 
 def turn_left():
