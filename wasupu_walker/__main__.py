@@ -9,7 +9,7 @@ def main():
     sound.speak('Welcome to the E V 3 dev project!')
 
     tank_drive = MoveTank(OUTPUT_A, OUTPUT_B, motor_class=ev3dev2.motor.MediumMotor)
-    tank_drive.on_for_seconds(SpeedPercent(50), SpeedPercent(50), 10)
+    tank_drive.on_for_seconds(SpeedPercent(50), SpeedPercent(-50), 10)
 
 
 main()
