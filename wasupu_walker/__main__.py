@@ -28,7 +28,7 @@ def start_back_ultrasonic_sensor():
     back_ultrasonic_sensor_scheduler \
         .enter(1, 1,
                check_back_distance,
-               (back_ultrasonic_sensor,))
+               (back_ultrasonic_sensor_scheduler,))
     back_ultrasonic_sensor_scheduler.run()
 
 
@@ -38,12 +38,14 @@ def start_front_ultrasonic_sensor():
         .enter(1, 1,
                check_front_distance,
                (front_ultrasonic_sensor_scheduler,))
+
     front_ultrasonic_sensor_scheduler.run()
 
 
 def check_front_distance(front_ultrasonic_sensor_scheduler):
-    front_distance = front_ultrasonic_sensor.distance_centimeters()
+    front_distance = front_ultrasonic_sensor.distance_centimeters
 
+    print("Check front distance" + front_distance)
     if front_distance < 25:
         turn_left()
         go_ahead()
@@ -52,12 +54,13 @@ def check_front_distance(front_ultrasonic_sensor_scheduler):
     front_ultrasonic_sensor_scheduler \
         .enter(1, 1,
                check_front_distance,
-               (front_ultrasonic_sensor, front_ultrasonic_sensor_scheduler))
+               (front_ultrasonic_sensor_scheduler,))
 
 
 def check_back_distance(back_ultrasonic_sensor_scheduler):
-    back_distance = back_ultrasonic_sensor.distance_centimeters()
+    back_distance = back_ultrasonic_sensor.distance_centimeters
 
+    print("Check back distance" + back_distance)
     if back_distance < 25:
         turn_left()
         go_ahead()
@@ -66,7 +69,7 @@ def check_back_distance(back_ultrasonic_sensor_scheduler):
     back_ultrasonic_sensor_scheduler \
         .enter(1, 1,
                check_back_distance,
-               (back_ultrasonic_sensor, back_ultrasonic_sensor_scheduler))
+               (back_ultrasonic_sensor_scheduler,))
 
 
 def go_ahead():
