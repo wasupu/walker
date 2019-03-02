@@ -8,16 +8,7 @@ We think that an spider shaped robot is a good way to achieve this target.
 
 We select [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html) version 3, to the best implementation.
 
-But a more simple option is maybe an omnidirectional robot
-
-* https://makezine.com/projects/lego-holonomic-robot/ 
-
-Before evaluate both options we decide implements the [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html), you can see the result of 
-the first walker development in the videos in the project.
-
-## First implementation
-
-We implements the [trotbot](https://www.diywalkers.com/mindstorms-trotbot-ver-3.html), you can see the result in the videos included in the project.
+You can see the result in the videos included in the project.
 
 ## Programming language
 
