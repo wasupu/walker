@@ -45,7 +45,6 @@ def start_front_ultrasonic_sensor():
 def check_front_distance(front_ultrasonic_sensor_scheduler):
     front_distance = front_ultrasonic_sensor.distance_centimeters
 
-    print(f"Check front distance {front_distance}")
     if front_distance < 25:
         turn_left()
         go_ahead()
@@ -60,7 +59,6 @@ def check_front_distance(front_ultrasonic_sensor_scheduler):
 def check_back_distance(back_ultrasonic_sensor_scheduler):
     back_distance = back_ultrasonic_sensor.distance_centimeters
 
-    print(f"Check back distance {back_distance}")
     if back_distance < 25:
         turn_left()
         go_ahead()
